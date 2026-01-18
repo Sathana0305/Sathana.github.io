@@ -2,47 +2,167 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Sathana | Portfolio</title>
+  <title>Sathanaa S | Portfolio</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <style>
     body {
-      font-family: Arial, sans-serif;
-      background: #0f172a;
-      color: #e5e7eb;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
       margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: #0f172a;
+      color: #e5e7eb;
+      line-height: 1.6;
     }
-    .card {
-      background: #020617;
-      padding: 30px;
-      border-radius: 12px;
+
+    header {
       text-align: center;
-      max-width: 400px;
-      box-shadow: 0 0 30px rgba(56,189,248,0.3);
+      padding: 60px 20px;
+      background: #020617;
     }
-    h1 { color: #38bdf8; }
-    p { line-height: 1.6; }
-    a {
+
+    header h1 {
+      margin-bottom: 8px;
+      font-size: 42px;
+      color: #38bdf8;
+    }
+
+    header p {
+      margin: 4px 0;
+      font-size: 18px;
+      color: #cbd5f5;
+    }
+
+    .btn {
       display: inline-block;
-      margin-top: 15px;
+      margin-top: 12px;
       padding: 10px 20px;
       background: #38bdf8;
       color: #020617;
-      text-decoration: none;
       border-radius: 6px;
       font-weight: bold;
+      text-decoration: none;
+    }
+
+    section {
+      max-width: 900px;
+      margin: auto;
+      padding: 35px 20px;
+    }
+
+    .card {
+      background: #020617;
+      border: 1px solid #1e293b;
+      border-radius: 12px;
+      padding: 22px;
+      margin-bottom: 25px;
+    }
+
+    h2 {
+      margin-bottom: 12px;
+      color: #38bdf8;
+    }
+
+    .project-title {
+      font-weight: bold;
+      margin-top: 15px;
+      font-size: 18px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 22px;
+      font-size: 14px;
+      color: #94a3b8;
     }
   </style>
 </head>
+
 <body>
-  <div class="card">
+
+  <header>
     <h1>Sathana S</h1>
     <p>AI & Data Science Student</p>
     <p>Aspiring Software Developer</p>
-    <a href="https://github.com/">GitHub</a>
-  </div>
+    <a class="btn" href="https://github.com/Sathana0305" target="_blank">View My GitHub</a>
+  </header>
+
+  <section>
+
+    <div class="card">
+      <h2>About Me</h2>
+      <p>
+        I am an student of AI and Data Science with a passion for building
+        practical applications in Python and software development. My projects
+        focus on solving real problems using clean logic and functional design.
+      </p>
+    </div>
+
+    <div class="card">
+      <h2>Projects</h2>
+
+      <p class="project-title">Student Management System</p>
+      <p>
+        A Python application to organize and manage student records. It lets users
+        add, view, update, and delete student details. This project helped me
+        practice file handling, modular code, and user input validation.
+      </p>
+      <p>
+        🔗 <a href="https://github.com/Sathana0305/Student_Management_System-Project" target="_blank">View on GitHub</a>
+      </p>
+
+      <p class="project-title">Online Test Portal (MCQ Test Creator)</p>
+      <p>
+        A simple quiz application built using Python and Tkinter that allows users
+        to take multiple-choice tests. It evaluates answers and shows results at the
+        end, improving my understanding of GUI development and program flow.
+      </p>
+      <p>
+        🔗 <a href="https://github.com/Sathana0305/Online-Test-Portal-Project" target="_blank">View on GitHub</a>
+      </p>
+
+      <p class="project-title">ATM Machine Simulator</p>
+      <p>
+        A basic ATM simulation project created in Python, designed to mimic key
+        ATM functions like balance check, deposit, withdrawal, and user PIN entry.
+        It focuses on logical transaction handling and simple menu navigation.
+      </p>
+      <p>
+        🔗 <a href="https://github.com/Sathana0305/ATM-Machine_project" target="_blank">View on GitHub</a>
+      </p>
+
+      <p class="project-title">Autocorrect & Typing Helper</p>
+      <p>
+        Part of the SHADOWFOX beginner-level project series that includes a keyboard
+        helper system. This project demonstrates string handling, basic NLP
+        concepts, and improving text input accuracy.
+      </p>
+      <p>
+        🔗 <a href="https://github.com/Sathana0305/SHADOWFOX_BEGINNER-LVL_01" target="_blank">View on GitHub</a>
+      </p>
+
+    </div>
+
+    <div class="card">
+      <h2>Skills</h2>
+      <p>
+        Python, Tkinter, File Handling, Modular Programming, Machine Learning, Data Analysis, Problem Solving,
+        Logic Building, Git & GitHub
+      </p>
+    </div>
+
+    <div class="card">
+      <h2>Contact</h2>
+      <p>
+        Email: sathanasaba08@gmail.com <br>
+        GitHub: <a href="https://github.com/Sathana0305" target="_blank">github.com/Sathana0305</a>
+      </p>
+    </div>
+
+  </section>
+
+  <footer>
+    © 2026 Sathana S
+  </footer>
+
 </body>
 </html>
